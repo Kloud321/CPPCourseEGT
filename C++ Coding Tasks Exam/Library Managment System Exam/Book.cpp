@@ -4,7 +4,7 @@
 
 #include "Book.h"
 
-Book::Book(const string &title, const string &author, const string &isbn) : title(title), author(author), ISBN(isbn) {}
+Book::Book(const string &title, const string &author, const string &isbn) : title(title), author(author), ISBN(isbn), aviable(true) {}
 
 const string &Book::getTitle() const {
     return title;

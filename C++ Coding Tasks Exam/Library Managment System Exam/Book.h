@@ -36,7 +36,7 @@ private:
     string title;
     string author;
     string ISBN;
-    bool aviable = true;
+    bool aviable;
 
 };
 
