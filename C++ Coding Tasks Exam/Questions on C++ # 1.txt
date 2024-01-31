@@ -15,9 +15,109 @@ The condition in while loop is checked before we enter the loop body and it may 
 
 3. Code Analysis:
 
+Given a snippet of C++ code containing a for loop, explain what the loop does, including how many times it iterates and why.
 
-for (int i = 1; i <= 5; ++i) {
+for (int i = 0; i < 5; i++) {
         std::cout << i << " ";
     }
+
+Цикълът започва от 0, изпълнява се докато i е по-малко от 5  и отпечатва на екрана цифрите от 0 до 4 - на първата итерация отпечатва 0, на 5-та отпечатва 4 и условеито вече не е яврно и цикъла свърша.
+
+Cycle starts from 0, runs until i is less than 5 and prints on the console nums from 0 till 4 - on 1st itteration prints 0, on the 5th prints 5 and the conditions is now not true (5<5) and cycles ends.
+
+4. Function usage:
+
+Write about how functions preevent code duplication and give an example of a simple C++ function that calculates the square of a number.
+
+
+Използването на функции ни предоставя възможност да декларираме логиката веднъж във функцията и след това да я преизползваме колкото пъти ни е необходима с извикването на функцията - намалява писането на еднакъв код, както и допускането на грешки.
+
+Using functions allows us to declare the logic once in the func body and after that to reuse it how many times we need it with calling the function - it reduces the writing of the same code and making mistakes.
+
+5. Memory Management:
+Disuss the improtance of memery managment in C++ and explain the difference between stack and heap memory allocation
+
+Управлението на паметта е от изкл. значение в C++, тъй като в езика позвлоява директен контрол върху паметта и в това е неговата сила, за това е важно паметта да се запълва само когато е необходима и да се изчиства след като вече не е необходима.
+
+Разликата между Stack и Heap е, че при стака паметта се чисти автоматично, а при хеапа "ръчно"
+
+Memory managment in C++ has big importance, because the language allows direct cotrol on it and this is the language power. Because of that is important to use the memory when it is necessary and release it when it is no longer needed.
+
+THe difference beetween Stack and Heap is with stack the memory is cleaned automaticly and with heap manually.
+
+
+6. Object-Oriented Programing
+Explain the concept of encapsulation in C++ and how it is achived using clasess
+
+Идеята на енкапсулацията е да не показва всички детайли за даден обект, а да предоставя на "външният свят" само това, което е необходимо, за да взаимодейства с този обект и това се постига чрез класовете и техните публик, протектед и прайват полета.
+Пример (няма до го превеждам на агнлийски) - Например имаме една кафемашина като потребителят не трябва да знае, как работи самата кафемашина, за да му пусне кафе - натиска едно копче и очаква да получи кафе.
+
+Idea of encapsulation is not show all details about an object, but to show to the outside world only, this which is necessary to interact with the object and is possible within clases and their public, protected and private fields.
+
+7. Еrror Handling:
+
+Desribe how exceptions are used in C++ for error handling with an example of a try-catch block
+
+source https://www.w3schools.com/cpp/cpp_exceptions.asp
+
+try {
+  int age = 15;
+  if (age >= 18) {
+    cout << "Access granted - you are old enough.";
+  } else {
+    throw 505;
+  }
+}
+catch (int myNum) {
+  cout << "Access denied - You must be at least 18 years old.\n";
+  cout << "Error number: " << myNum;
+}
+
+
+влиза се в тялото на try и ако условеито е вярно отпечтва се "Access granted - you are old enough.";, ако е грешно влиза в else и след това в тялото на catch отпечатва  "Access denied - You must be at least 18 years old.";
+  Error number: 505
+
+Complier goes to the body of try and if the cond. is true prints << "Access granted - you are old enough.", if it is false it goes in the else conditon and from there in the body of catch which prints catch (int myNum) {
+  Access denied - You must be at least 18 years old.;
+   Error number: 505;
+}
+
+8. STL Containers:
+Write about the purpose and use of the std::vector container in C++;
+
+Векторите са динамични масиви и като такива това им позвалява да си променят големината за разликата от статичните такива - това е предимство, когато не се знае колко елемента ще запазим в масивите.
+
+Vectors are dynamic arrays and as such this allows them to resize during runtime and this is the main difference with the static arrays - this is advantage when we dont know how many elements there are.
+
+9.  Pointers and References:
+
+Discuss the deffirence between pointers and references in C++ and provide scenarios where one might be preferred over the other.
+source - https://www.geeksforgeeks.org/pointers-vs-references-cpp/
+
+Поинтера е променлива, която съдържа адреса в паметта на друга променлива, към която сочи, a референцията е псевдоним за променлива  - друго име за вече съществуваща променлива. Поинтера може да не бъде инициализиран или да сочи към nullptr, докато референцията винаги сочи към валиден обект.
+
+Използваме референции при дефиниране на параметрите на функции, а поинтери с оглед казаното по-горе, когато искаме да посочим към друга клетка от свързани списъци ( съгласно примера в изотчника посочен по-горе)
+
+Pointer is a variable, which holds the adress in the memory of another variable, at which it points, the reference is an allias of variable - another name for already existing variable. The pointer can be uninitialized  or set to nullptr, on the other hand the reference awlays refers to an object.
+
+We use reference when we define the parameters of functions, and pointers with the said above, when we want to point to another cell in linked lists.
+
+
+10. Advanced Features:
+
+Explain the concept of templates in C++ and how they support generic programming. Include a simple example of a template function.
+
+Шаблонът е "чертеж", който ни позволява да създаваме функции или класове, които работят с всякакъв тип данни. И тук се прилага правилото за по-малко код и по-малка вероятност за допускане на грешки.
+
+
+Template is a "blueprint" which allows us to create functions or clases, which work with duffrent type of date. Here we also applies the rule for less code and less probabillity for mistakes.
+
+
+template <class T>
+T multiply(T a, T b) {
+    return a * b;
+}
+
+multiply(5, 10)
 
 
