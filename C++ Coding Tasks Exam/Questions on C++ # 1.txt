@@ -1,0 +1,23 @@
+1. Syntax Explanation:
+	Describe what the following line of C++ code does: int* ptr= &var;
+
+	Променливата ptr ще съхранява адрес на интиджър и с "=" ще запази стойността на var, която променлива пази адреса в паметта, където var e запаметена.
+
+	THe variable ptr will hold the memory adress of an integer and with "=" will save the value of var, which saves the place in the memory, where var is stored.
+
+2. Concept Explanation:
+Explain the difference between while loop and a do-while loop in c++
+
+Условието в while loop се проверява преди да се влезе в тялото на цикъла и може изобщо да не се влезе в тялото на цикъла, а при do while
+условието в do се изпълнява поне веднъж и след това се проверява условието в while.
+
+The condition in while loop is checked before we enter the loop body and it may never go to the body of the loop based on the logic in the condition, with do while cycle the condition is executed at least on time and then the condition is checked.
+
+3. Code Analysis:
+
+
+for (int i = 1; i <= 5; ++i) {
+        std::cout << i << " ";
+    }
+
+
