@@ -34,14 +34,13 @@ public:
 
     void addEmpl(Employee*);
 
-    void displayInfo(std::vector<Employee*>);
+    void displayInfo();
 
 private:
     string name;
     string type;
     int age;
     Workstation work;
-    std::vector<Employee* > emplList;
 
 };
 

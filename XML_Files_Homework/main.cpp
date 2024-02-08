@@ -4,37 +4,49 @@
 using namespace std;
 using namespace pugi;
 
-int main() {
-     vector<Employee*> employees;
-
+void parseXMLAndCreateEmployees(const string& filename, vector<Employee*>& employees) {
     xml_document doc;
-    if (!doc.load_file("Employee.xml")) {
+    if (!doc.load_file(filename.c_str())) {
         cerr << "Failed to load XML file." << endl;
-        return -1;
+        return;
     }
 
     xml_node employeesNode = doc.child("EmployeesData").child("Employees");
-
     for (xml_node_iterator it = employeesNode.begin(); it != employeesNode.end(); ++it) {
-
         string name = it->attribute("Name").value();
         string type = it->attribute("type").value();
         int age = it->attribute("Age").as_int();
-
-        string work = it->child("Workstation").value();
 
         xml_node workstationNode = it->child("Workstation");
         if (workstationNode) {
             string building = workstationNode.attribute("Building").value();
             string floor = workstationNode.attribute("Floor").value();
             string desc = workstationNode.attribute("Desc").value();
-            Employee epl(name, type, age, Workstation(building, floor, desc));
-
-            epl.addEmpl(&epl);
-            epl.displayInfo(employees);
+            Employee* employee = new Employee(name, type, age, Workstation(building, floor, desc));
+            employees.push_back(employee);
         }
+    }
+}
 
-        cout << endl; // Add a newline to separate each employee
+void displayEmployees(const vector<Employee*>& employees) {
+    for (const auto& employee : employees) {
+        employee->displayInfo();
+        cout << endl;
+    }
+}
+
+
+int main() {
+     vector<Employee*> employees;
+
+     // Func accept xml file and vector of empl -> we read the file, making a class empl. and pushing it back to the vector
+     // where we store our information. After that we display info about each employee iterating through the vector
+    parseXMLAndCreateEmployees("Employee.xml", employees);
+    displayEmployees(employees);
+
+    // Cleaning memory
+    for (auto& employee : employees) {
+        delete employee;
     }
 
     return 0;

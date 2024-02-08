@@ -40,17 +40,11 @@ void Employee::setWork(const Workstation &work) {
     Employee::work = work;
 }
 
-void Employee::addEmpl(Employee *emp) {
-    emplList.push_back(emp);
-}
 
-void Employee::displayInfo(std::vector<Employee*> empl) {
+void Employee::displayInfo() {
 
-//     Print out the employees and their workstations
-    for ( Employee* employee : emplList) {
-        cout << "Name: " << employee->getName() << ", Type: " << employee->getType() << ", Age: " << employee->getAge();
-        cout << ", Workstation: Building " << employee->getWork().getBuilding();
-        cout << ", Floor " << employee->getWork().getFloor();
-        cout << ", Desc " << employee->getWork().getDesc() << endl;
+        cout << "Name: " << name << ", Type: " << type << ", Age: " << age;
+        cout << ", Workstation: Building " <<work.getBuilding();
+        cout << ", Floor " << work.getFloor();
+        cout << ", Desc " << work.getDesc() << endl;
     }
-}
