@@ -23,8 +23,6 @@ void SetPixel(SDL_Surface* surface, int x, int y, uint8_t r, uint8_t g, uint8_t 
 
 }
 
-
-
 int main(int argc, char* argv[]) {
 
 	// Creating a window 
