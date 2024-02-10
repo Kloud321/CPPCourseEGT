@@ -27,13 +27,6 @@ void SetPixel(SDL_Surface* surface, int x, int y, uint8_t r, uint8_t g, uint8_t 
 
 int main(int argc, char* argv[]) {
 
-	//SDL_Init(SDL_INIT_EVERYTHING);
-
-	//SDL_ShowSimpleMessageBox(SDL_MESSAGEBOX_INFORMATION, "Ivan Box", "Fuck you", NULL);
-
-
-	//SDL_Quit();
-
 	// Creating a window 
 	SDL_Window* window = nullptr;
 
