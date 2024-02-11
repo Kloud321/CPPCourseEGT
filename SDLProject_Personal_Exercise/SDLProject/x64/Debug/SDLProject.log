@@ -1,4 +1,0 @@
-﻿  main.cpp
-D:\Private folder\University and styduing\EGT\FreeORG C++ Course\VS Projects EGT\SDLProject\SDLProject\main.cpp(75,10): warning C4477: 'printf' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'const char *(__cdecl *)(void)'
-D:\Private folder\University and styduing\EGT\FreeORG C++ Course\VS Projects EGT\SDLProject\SDLProject\main.cpp(63,15): warning C4101: 'image': unreferenced local variable
-  SDLProject.vcxproj -> D:\Private folder\University and styduing\EGT\FreeORG C++ Course\VS Projects EGT\SDLProject\x64\Debug\SDLProject.exe
