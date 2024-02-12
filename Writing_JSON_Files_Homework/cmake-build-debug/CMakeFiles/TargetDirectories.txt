@@ -1,0 +1,3 @@
+C:/Users/damya/CLionProjects/CPP/JSON_Files_Homework/cmake-build-debug/CMakeFiles/JSON_Files_Homework.dir
+C:/Users/damya/CLionProjects/CPP/JSON_Files_Homework/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/damya/CLionProjects/CPP/JSON_Files_Homework/cmake-build-debug/CMakeFiles/rebuild_cache.dir

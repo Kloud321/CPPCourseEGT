@@ -1,0 +1,21 @@
+# ninja log v5
+11	656	7294738015598099	CMakeFiles/JSON_Files_Homework.dir/Workstation.cpp.obj	b5379fb5c425564c
+7	709	7294738016138167	CMakeFiles/JSON_Files_Homework.dir/Employee.cpp.obj	74e966d447dbcfdb
+17	2150	7294738030504084	CMakeFiles/JSON_Files_Homework.dir/pugixml.cpp.obj	d8143f4484a00237
+5	3408	7294740880698602	CMakeFiles/JSON_Files_Homework.dir/main.cpp.obj	be87b60b94670ccf
+3409	4447	7294740891098387	JSON_Files_Homework.exe	7cb624e2c0c61579
+5	2865	7294741483166339	CMakeFiles/JSON_Files_Homework.dir/main.cpp.obj	be87b60b94670ccf
+2866	3863	7294741493201499	JSON_Files_Homework.exe	7cb624e2c0c61579
+4	2911	7294743980553942	CMakeFiles/JSON_Files_Homework.dir/main.cpp.obj	be87b60b94670ccf
+2911	3912	7294743990566793	JSON_Files_Homework.exe	7cb624e2c0c61579
+5	2907	7294746035390519	CMakeFiles/JSON_Files_Homework.dir/main.cpp.obj	be87b60b94670ccf
+2907	3852	7294746044838119	JSON_Files_Homework.exe	7cb624e2c0c61579
+4	3038	7294747011996454	CMakeFiles/JSON_Files_Homework.dir/main.cpp.obj	be87b60b94670ccf
+3039	3982	7294747021448670	JSON_Files_Homework.exe	7cb624e2c0c61579
+4	3069	7294751634453759	CMakeFiles/JSON_Files_Homework.dir/main.cpp.obj	be87b60b94670ccf
+3069	4008	7294751644033823	JSON_Files_Homework.exe	7cb624e2c0c61579
+4	3110	7294756218506548	CMakeFiles/JSON_Files_Homework.dir/main.cpp.obj	be87b60b94670ccf
+6	3108	7294756676396663	CMakeFiles/JSON_Files_Homework.dir/main.cpp.obj	be87b60b94670ccf
+3109	4190	7294756687185996	JSON_Files_Homework.exe	7cb624e2c0c61579
+4	3186	7294757285955625	CMakeFiles/JSON_Files_Homework.dir/main.cpp.obj	be87b60b94670ccf
+3187	4247	7294757296592454	JSON_Files_Homework.exe	7cb624e2c0c61579

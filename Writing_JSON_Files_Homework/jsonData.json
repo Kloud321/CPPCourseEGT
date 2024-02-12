@@ -1,0 +1,34 @@
+{
+  "EmployeesData": [
+    {
+      "name": "John",
+      "type": "Part-Time",
+      "age": 23,
+      "Workstation": {
+        "Building": "2",
+        "Floor": "3",
+        "Desc": "5"
+      }
+    },
+    {
+      "name": "Sean",
+      "type": "Full-Time",
+      "age": 34,
+      "Workstation": {
+        "Building": "2",
+        "Floor": "3",
+        "Desc": "6"
+      }
+    },
+    {
+      "name": "Sarah",
+      "type": "Part-Time",
+      "age": 55,
+      "Workstation": {
+        "Building": "3",
+        "Floor": "1",
+        "Desc": "1"
+      }
+    }
+  ]
+}
