@@ -52,7 +52,7 @@
 			[
 				{
 					"backtrace" : 2,
-					"path" : "C:/Users/damya/CLionProjects/CPP/JSON_Files_Homework/."
+					"path" : "C:/Users/damya/CLionProjects/CPP/Writing_JSON_Files_Homework/."
 				}
 			],
 			"language" : "CXX",
@@ -119,7 +119,15 @@
 				1,
 				3,
 				5,
-				7
+				7,
+				8
+			]
+		},
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				9
 			]
 		}
 	],
@@ -168,6 +176,16 @@
 			"backtrace" : 1,
 			"path" : "Workstation.h",
 			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "json.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "cmake-build-debug/jsonData.json",
+			"sourceGroupIndex" : 2
 		}
 	],
 	"type" : "EXECUTABLE"

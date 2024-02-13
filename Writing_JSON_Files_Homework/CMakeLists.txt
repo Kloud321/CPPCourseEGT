@@ -13,4 +13,6 @@ add_executable(JSON_Files_Homework
         pugixml.cpp
         pugixml.h
         Workstation.cpp
-        Workstation.h)
+        Workstation.h
+        json.h
+        cmake-build-debug/jsonData.json)

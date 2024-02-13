@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/damya/CLionProjects/CPP/JSON_Files_Homework
+# Install script for directory: C:/Users/damya/CLionProjects/CPP/Writing_JSON_Files_Homework
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/damya/CLionProjects/CPP/JSON_Files_Homework/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/damya/CLionProjects/CPP/Writing_JSON_Files_Homework/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
