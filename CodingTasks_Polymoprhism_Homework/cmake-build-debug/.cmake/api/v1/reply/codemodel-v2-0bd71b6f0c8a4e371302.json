@@ -1,0 +1,60 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.27"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "CodingTasks_Polymoprhism_Homework",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "CodingTasks_Polymoprhism_Homework::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-CodingTasks_Polymoprhism_Homework-Debug-1ba6019a571dbfb41d7b.json",
+					"name" : "CodingTasks_Polymoprhism_Homework",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/damya/CLionProjects/CPP/CodingTasks_Polymoprhism_Homework/cmake-build-debug",
+		"source" : "C:/Users/damya/CLionProjects/CPP/CodingTasks_Polymoprhism_Homework"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

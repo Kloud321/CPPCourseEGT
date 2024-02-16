@@ -1,0 +1,21 @@
+# ninja log v5
+12	727	7298080724000263	CMakeFiles/CodingTasks_Polymoprhism_Homework.dir/Rectangle.cpp.obj	2eb29b63698171c7
+16	563	7298086419407998	CMakeFiles/CodingTasks_Polymoprhism_Homework.dir/Rectangle.cpp.obj	2eb29b63698171c7
+8	579	7298086419578043	CMakeFiles/CodingTasks_Polymoprhism_Homework.dir/Circle.cpp.obj	25643291d2f2ac0c
+10	608	7298086781172106	CMakeFiles/CodingTasks_Polymoprhism_Homework.dir/Circle.cpp.obj	25643291d2f2ac0c
+21	619	7298086781272147	CMakeFiles/CodingTasks_Polymoprhism_Homework.dir/Shape.cpp.obj	c0fb35fb141224b8
+16	653	7298086781622059	CMakeFiles/CodingTasks_Polymoprhism_Homework.dir/Rectangle.cpp.obj	2eb29b63698171c7
+5	462	7298088608829326	CMakeFiles/CodingTasks_Polymoprhism_Homework.dir/main.cpp.obj	ffc553c992502207
+463	579	7298088609959684	CodingTasks_Polymoprhism_Homework.exe	940a20f9006f8415
+4	725	7298090980114063	CMakeFiles/CodingTasks_Polymoprhism_Homework.dir/Circle.cpp.obj	25643291d2f2ac0c
+15	727	7298090980124062	CMakeFiles/CodingTasks_Polymoprhism_Homework.dir/Rectangle.cpp.obj	2eb29b63698171c7
+11	731	7298090980204046	CMakeFiles/CodingTasks_Polymoprhism_Homework.dir/main.cpp.obj	ffc553c992502207
+20	769	7298090980584095	CMakeFiles/CodingTasks_Polymoprhism_Homework.dir/Shape.cpp.obj	c0fb35fb141224b8
+769	942	7298090982264042	CodingTasks_Polymoprhism_Homework.exe	940a20f9006f8415
+14	518	7298093121437663	CMakeFiles/CodingTasks_Polymoprhism_Homework.dir/Rectangle.cpp.obj	2eb29b63698171c7
+9	526	7298093121517660	CMakeFiles/CodingTasks_Polymoprhism_Homework.dir/main.cpp.obj	ffc553c992502207
+4	544	7298093121707662	CMakeFiles/CodingTasks_Polymoprhism_Homework.dir/Circle.cpp.obj	25643291d2f2ac0c
+544	692	7298093123147667	CodingTasks_Polymoprhism_Homework.exe	940a20f9006f8415
+11	476	7298095006327399	CMakeFiles/CodingTasks_Polymoprhism_Homework.dir/Circle.cpp.obj	25643291d2f2ac0c
+3	414	7298095242289934	CMakeFiles/CodingTasks_Polymoprhism_Homework.dir/main.cpp.obj	ffc553c992502207
+416	529	7298095243379654	CodingTasks_Polymoprhism_Homework.exe	940a20f9006f8415
