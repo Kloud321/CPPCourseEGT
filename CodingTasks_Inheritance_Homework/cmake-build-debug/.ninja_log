@@ -1,0 +1,8 @@
+# ninja log v5
+7	769	7298068759127648	CMakeFiles/CodingTasks_Inheritance_Homework.dir/Shape.cpp.obj	735ce94c751a1340
+0	780	7298068759177644	CMakeFiles/CodingTasks_Inheritance_Homework.dir/Circle.cpp.obj	1087a3ef7c61d06e
+12	782	7298068759247659	CMakeFiles/CodingTasks_Inheritance_Homework.dir/main.cpp.obj	15b36a8f0080ca66
+18	784	7298068759257640	CMakeFiles/CodingTasks_Inheritance_Homework.dir/Rectangle.cpp.obj	bd415c266326635b
+785	985	7298068761267631	CodingTasks_Inheritance_Homework.exe	2817ffbbcaa8248b
+4	476	7298069463367379	CMakeFiles/CodingTasks_Inheritance_Homework.dir/main.cpp.obj	15b36a8f0080ca66
+477	628	7298069464827320	CodingTasks_Inheritance_Homework.exe	2817ffbbcaa8248b
