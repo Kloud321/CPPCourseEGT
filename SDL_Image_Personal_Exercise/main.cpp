@@ -6,6 +6,7 @@ using std::string;
 #include "SDL.h"
 #include "SDL_image.h"
 #include "Game.h"
+#include "Sprite.h"
 
 Game* game = NULL;
 #define window_width 800 
@@ -23,7 +24,7 @@ int main(int argc, char* argv[]) {
 		game->handleEvents();
 		game->update();
 		game->render();
-        game->capFrameRate();
+		game->capFrameRate();
 	}
 	game->clean();
 

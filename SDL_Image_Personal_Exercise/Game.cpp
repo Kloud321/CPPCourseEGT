@@ -1,13 +1,18 @@
 #include "Game.h"
+#include "Sprite.h"
+
 #define fps 60
 int c = 0;
 
-Game::Game() {
+Game::Game(): sprite() {
 	Game::window = NULL;
 	Game::renderer = NULL;
 	Game::isRunning = true;
 	Game::currentFrame = 0;
 	startingTick = 0;
+
+	sprite.init(0xFF0000FF, 500, 500);
+
 }
 
 Game::~Game() {}
@@ -47,12 +52,17 @@ bool Game::init(const char* title, int xpos, int ypos, int width, int height, in
 	return true;
 }
 
+SDL_Surface* Game::createSurface(int w, int h) {
+	return SDL_CreateRGBSurface(0, w, h, 32, 0, 0, 0, 0);
+}
+
 void Game::render() {
-	//SDL_SetRenderDrawColor(renderer, 0xFF, 0xFF, 0xFF, 0xFF); // white color
-	SDL_SetRenderDrawColor(renderer, 0xAA, 0xAA, 0xAA, 0xFF); // dark grey color
+	SDL_SetRenderDrawColor(renderer, 0xFF, 0xFF, 0xFF, 0xFF); // white color
+	//SDL_SetRenderDrawColor(renderer, 0xAA, 0xAA, 0xAA, 0xFF); // dark grey color
 	//SDL_SetRenderDrawColor(renderer, 0xCC, 0xCC, 0xCC, 0xFF); // grey color
 	//SDL_SetRenderDrawColor(renderer, 0x00, 0x00, 0x00, 0xFF); // black color
 	SDL_RenderClear(renderer);
+	sprite.draw(renderer);
 
 	//int ww, wh;
 	//SDL_GetWindowSize(window, &ww, &wh);

@@ -4,6 +4,7 @@
 
 #include <SDL.h>
 #include <SDL_image.h>
+#include "Sprite.h"
 
 class Game {
 public:
@@ -16,6 +17,7 @@ public:
 		int flags);
 
 	void render();
+	SDL_Surface* createSurface(int w, int h);
 	void capFrameRate();
 	void update();
 	void handleEvents();
@@ -28,4 +30,5 @@ private:
 	Uint32 startingTick;
 	bool isRunning;
 	int currentFrame;
+	Sprite sprite;
 };
